@@ -10,10 +10,14 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from htmlTemplates import css,bot_template, user_template
 from langchain.llms import HuggingFaceHub
+import os
 
 from PIL import Image
 
 logo = Image.open('L3H_logo.png')
+
+# Setup reading OpenAI key in Streamlit cloud environment
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 def get_pdf_text(pdf_docs):
     text = ""
