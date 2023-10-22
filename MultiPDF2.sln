@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MultiPDF2", "MultiPDF2.pyproj", "{700B3882-1A9E-41D4-9046-93EFE368F5F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{700B3882-1A9E-41D4-9046-93EFE368F5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700B3882-1A9E-41D4-9046-93EFE368F5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99C963BF-B5DB-4E3F-9F30-27F35339C388}
+	EndGlobalSection
+EndGlobal
